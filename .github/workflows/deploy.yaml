@@ -36,7 +36,7 @@ jobs:
           path: ./dist
 
   deploy:
-    needs: build
+    needs: build 
 
     permissions:
       pages: write
